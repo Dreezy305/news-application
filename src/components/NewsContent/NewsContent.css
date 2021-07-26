@@ -1,0 +1,35 @@
+.downloadMessage {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  background: #f44336;
+  height: 48px;
+  padding: 0 40px;
+  margin: 20px 0 35px 0;
+  color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.downloadText {
+  flex: 1;
+}
+
+.cardBox {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+
+.loadMore {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+}
+
+@media (max-width: 995px) {
+  .downloadMessage {
+    display: none;
+  }
+  .cardBox {
+    margin-top: 20px;
+  }
+}
